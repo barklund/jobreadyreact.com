@@ -23,7 +23,7 @@ export default function Index() {
             </p>
             <p className="mt-16 mx-4 md:md-0">
               <a
-                href="//barklund.dev/proreact"
+                href="//barklund.dev/book2"
                 className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider"
               >
                 Buy now
@@ -220,7 +220,7 @@ export default function Index() {
             </h3>
             <p className="mt-16">
               <a
-                href="//barklund.dev/proreact"
+                href="//barklund.dev/book2"
                 className="bg-white font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider"
               >
                 Buy now
@@ -260,7 +260,7 @@ export default function Index() {
               <ul className="mb-4">
                 <li className="mt-2">
                   <a
-                    href="//barklund.dev/proreact"
+                    href="//barklund.dev/book2"
                     className="hover:underline text-gray-600 hover:text-orange-500"
                   >
                     Purchase

@@ -14,7 +14,7 @@ export function links() {
 }
 
 export function meta() {
-  return { title: "React Quickly, Second Edition out now for purchase" };
+  return { title: "React like a Pro out now for purchase" };
 }
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta
           name="description"
-          content="React Quickly, Second Edition is a brand new book on modern React web development and it is available for pre-order and early access now. The new edition has been completely rewritten and fully updated to the React ecosystem as of 2022."
+          content="React like a Pro is a brand new book on the modern React ecosystem and it is available for pre-order and early access now. The book is fully up-to-date as of 2023."
         />
         <link
           rel="apple-touch-icon"
