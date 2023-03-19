@@ -14,7 +14,9 @@ export function links() {
 }
 
 export function meta() {
-  return { title: "React like a Pro out now for purchase" };
+  return {
+    title: "Upgrade your React Skills to Pro Level And Land Your Dream Job",
+  };
 }
 
 export default function App() {
@@ -25,7 +27,7 @@ export default function App() {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta
           name="description"
-          content="React like a Pro is a brand new book on the modern React ecosystem and it is available for pre-order and early access now. The book is fully up-to-date as of 2023."
+          content="React like a Pro is the book that will take you from amateur to professional React developer. Learn all the tricks and tools used in the real world, and get an edge to land that professional position. Pre-order your copy today!"
         />
         <link
           rel="apple-touch-icon"
