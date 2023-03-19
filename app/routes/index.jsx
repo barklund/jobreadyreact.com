@@ -219,10 +219,9 @@ export default function Index() {
                 <div className="bg-white rounded shadow py-2">
                   <p className="text-gray-800 text-base px-6 mb-5">
                     Truly a BIBLE for React! This book is a single consolidated
-                    place - on the subject that is{" "}
-                    <strong>all-inclusive</strong> of anything - and{" "}
-                    <strong>everything</strong> from any forum or even any -{" "}
-                    <em>React minds</em> on the planet. Awesome!
+                    place on the subject that is <strong>all-inclusive</strong>{" "}
+                    of anything and <strong>everything</strong> from any forum
+                    or even any <em>React minds</em> on the planet. Awesome!
                   </p>
                   <p className="text-gray-500 text-xs md:text-sm px-6">
                     Karthikeyarajan Rajendran
