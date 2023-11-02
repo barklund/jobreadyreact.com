@@ -32,9 +32,47 @@
       "build": "/builds/ch06/appointment/",
       "content": "/zips/ch06/appointment.zip"
     },
+    "dark-mode": {
+      "build": "/builds/ch06/dark-mode/",
+      "content": "/zips/ch06/dark-mode.zip"
+    },
+    "paginable": {
+      "build": "/builds/ch06/paginable/",
+      "content": "/zips/ch06/paginable.zip"
+    },
+    "playlist": {
+      "build": "/builds/ch06/playlist/",
+      "content": "/zips/ch06/playlist.zip"
+    },
     "tag-form": {
       "build": "/builds/ch06/tag-form/",
       "content": "/zips/ch06/tag-form.zip"
+    },
+    "use-reorderable": {
+      "build": "/builds/ch06/use-reorderable/",
+      "content": "/zips/ch06/use-reorderable.zip"
+    }
+  },
+  "ch07": {
+    "classnames": {
+      "build": "/builds/ch07/classnames/",
+      "content": "/zips/ch07/classnames.zip"
+    },
+    "cssmodules": {
+      "build": "/builds/ch07/cssmodules/",
+      "content": "/zips/ch07/cssmodules.zip"
+    },
+    "inline": {
+      "build": "/builds/ch07/inline/",
+      "content": "/zips/ch07/inline.zip"
+    },
+    "styled": {
+      "build": "/builds/ch07/styled/",
+      "content": "/zips/ch07/styled.zip"
+    },
+    "tailwind": {
+      "build": "/builds/ch07/tailwind/",
+      "content": "/zips/ch07/tailwind.zip"
     }
   }
 }
