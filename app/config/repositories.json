@@ -74,5 +74,27 @@
       "build": "/builds/ch07/tailwind/",
       "content": "/zips/ch07/tailwind.zip"
     }
+  },
+  "ch08": {
+    "context": {
+      "build": "/builds/ch08/context/",
+      "content": "/zips/ch08/context.zip"
+    },
+    "reducer": {
+      "build": "/builds/ch08/reducer/",
+      "content": "/zips/ch08/reducer.zip"
+    },
+    "redux": {
+      "build": "/builds/ch08/redux/",
+      "content": "/zips/ch08/redux.zip"
+    },
+    "xstate": {
+      "build": "/builds/ch08/xstate/",
+      "content": "/zips/ch08/xstate.zip"
+    },
+    "zustand": {
+      "build": "/builds/ch08/zustand/",
+      "content": "/zips/ch08/zustand.zip"
+    }
   }
 }
