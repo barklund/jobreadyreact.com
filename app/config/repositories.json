@@ -96,5 +96,19 @@
       "build": "/builds/ch08/zustand/",
       "content": "/zips/ch08/zustand.zip"
     }
+  },
+  "ch09": {
+    "better-reactive": {
+      "build": "/builds/ch09/better-reactive/",
+      "content": "/zips/ch09/better-reactive.zip"
+    },
+    "reactive": {
+      "build": "/builds/ch09/reactive/",
+      "content": "/zips/ch09/reactive.zip"
+    },
+    "things": {
+      "build": "/builds/ch09/things/",
+      "content": "/zips/ch09/things.zip"
+    }
   }
 }
