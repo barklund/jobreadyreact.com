@@ -110,5 +110,21 @@
       "build": "/builds/ch09/things/",
       "content": "/zips/ch09/things.zip"
     }
+  },
+  "ch13": {
+    "base": {
+      "build": "/builds/ch13/base/",
+      "content": "/zips/ch13/base.zip"
+    },
+    "complete": {
+      "build": "/builds/ch13/complete/",
+      "content": "/zips/ch13/complete.zip"
+    }
+  },
+  "ch14": {
+    "wordle": {
+      "build": "/builds/ch14/wordle/",
+      "content": "/zips/ch14/wordle.zip"
+    }
   }
 }
