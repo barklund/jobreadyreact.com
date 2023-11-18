@@ -111,6 +111,44 @@
       "content": "/zips/ch09/things.zip"
     }
   },
+  "ch10": {
+    "axios": {
+      "build": "/builds/ch10/axios/",
+      "content": "/zips/ch10/axios.zip"
+    },
+    "click-counter": {
+      "build": "/builds/ch10/click-counter/",
+      "content": "/zips/ch10/click-counter.zip"
+    },
+    "dark-mode": {
+      "build": "/builds/ch10/dark-mode/",
+      "content": "/zips/ch10/dark-mode.zip"
+    },
+    "geo": {
+      "build": "/builds/ch10/geo/",
+      "content": "/zips/ch10/geo.zip"
+    },
+    "keypress": {
+      "build": "/builds/ch10/keypress/",
+      "content": "/zips/ch10/keypress.zip"
+    },
+    "menuitem": {
+      "build": "/builds/ch10/menuitem/",
+      "content": "/zips/ch10/menuitem.zip"
+    },
+    "menuitem-icon": {
+      "build": "/builds/ch10/menuitem-icon/",
+      "content": "/zips/ch10/menuitem-icon.zip"
+    },
+    "timer": {
+      "build": "/builds/ch10/timer/",
+      "content": "/zips/ch10/timer.zip"
+    },
+    "todo": {
+      "build": "/builds/ch10/todo/",
+      "content": "/zips/ch10/todo.zip"
+    }
+  },
   "ch13": {
     "base": {
       "build": "/builds/ch13/base/",
