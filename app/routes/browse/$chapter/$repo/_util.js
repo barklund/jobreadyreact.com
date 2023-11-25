@@ -2,11 +2,6 @@ import { useParams } from "@remix-run/react";
 import { useEffect, useState } from "react";
 import repositories from "~/config/repositories.json";
 
-export const TABS = [
-  { label: "Information", link: "info" },
-  { label: "Browse", link: "browse" },
-  { label: "Try", link: "try" },
-];
 const IMAGES = ["ico", "svg", "png", "jpg", "gif"];
 const MIMETYPE = {
   png: "image/png",
@@ -18,7 +13,8 @@ const MIMETYPE = {
 
 const getExtension = (str) => /(?:\.([^.]+))?$/.exec(str)?.[1];
 
-const checkImage = (filename) => IMAGES.includes(getExtension(filename));
+const checkImage = (filename) =>
+  IMAGES.includes(getExtension(filename));
 
 function getLanguage(extension) {
   switch (extension) {
@@ -113,15 +109,21 @@ export function useRepo() {
         );
     };
     readZip();
-  }, [repo.content]);
+  }, [params.repo, repo.content]);
   return {
     ...repo,
     id: params.repo,
     chapter: parseInt(params.chapter.slice(2, 4)),
     filetree,
     tabs: [
-      ...TABS,
-      { label: "Download", link: repo.content, target: "_blank" },
-    ],
+      { label: "Information", link: "info" },
+      { label: "Browse", link: "browse" },
+      repo.build && { label: "Trying", link: "try" },
+      repo.content && {
+        label: "Download",
+        link: repo.content,
+        target: "_blank",
+      },
+    ].filter(Boolean),
   };
 }

@@ -149,6 +149,34 @@
       "content": "/zips/ch10/todo.zip"
     }
   },
+  "ch11": {
+    "nextjs": {
+      "build": "",
+      "content": "/zips/ch11/nextjs.zip"
+    },
+    "remix": {
+      "build": "",
+      "content": "/zips/ch11/remix.zip"
+    }
+  },
+  "ch12": {
+    "backend-only": {
+      "build": "",
+      "content": "/zips/ch12/backend-only.zip"
+    },
+    "complete": {
+      "build": "",
+      "content": "/zips/ch12/complete.zip"
+    },
+    "frontend-only": {
+      "build": "",
+      "content": "/zips/ch12/frontend-only.zip"
+    },
+    "skeleton": {
+      "build": "",
+      "content": "/zips/ch12/skeleton.zip"
+    }
+  },
   "ch13": {
     "base": {
       "build": "/builds/ch13/base/",

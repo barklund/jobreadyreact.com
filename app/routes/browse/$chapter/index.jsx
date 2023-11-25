@@ -26,12 +26,19 @@ function Chapter() {
                 <Link to={`${name}/info`} className="hover:underline">
                   About
                 </Link>
-                <Link to={`${name}/try`} className="hover:underline">
-                  Try
-                </Link>
-                <Link to={`${name}/browse`} className="hover:underline">
-                  Browse
-                </Link>
+                {info.build && (
+                  <Link to={`${name}/try`} className="hover:underline">
+                    Try
+                  </Link>
+                )}
+                {info.content && (
+                  <Link
+                    to={`${name}/browse`}
+                    className="hover:underline"
+                  >
+                    Browse
+                  </Link>
+                )}
                 <Link
                   target="_blank"
                   to={info.content}

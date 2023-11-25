@@ -17,24 +17,28 @@ function Info() {
           <code>{repo.id}</code>
         </h2>
         <p className="py-2 text-lg">
-          This repository is an example from Chapter {repo.chapter} of{" "}
+          This example is from Chapter {repo.chapter} of{" "}
           <strong>Job-Ready React</strong>.
         </p>
         <div className="mt-2 p-4 flex flex-col items-stretch w-max gap-8">
-          <Button as={Link} to="../try" Icon={FaFlask}>
-            Try it out
-          </Button>
+          {repo.build && (
+            <Button as={Link} to="../try" Icon={FaFlask}>
+              Try it out
+            </Button>
+          )}
           <Button as={Link} to="../browse" Icon={FaFileCode}>
             Browse the files
           </Button>
-          <Button
-            as={Link}
-            to={repo.content}
-            target="_blank"
-            Icon={FaCloudDownloadAlt}
-          >
-            Download source code
-          </Button>
+          {repo.content && (
+            <Button
+              as={Link}
+              to={repo.content}
+              target="_blank"
+              Icon={FaCloudDownloadAlt}
+            >
+              Download source code
+            </Button>
+          )}
         </div>
       </section>
     </>
