@@ -430,7 +430,6 @@ export default function Index() {
                 </li>
               </ul>
             </div>
-            */}
             <div className="flex-grow text-center md:text-left">
               <h5 className="uppercase mb-2 md:mb-6 font-bold">
                 Follow Morten Barklund elsewhere
