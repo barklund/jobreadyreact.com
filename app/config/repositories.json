@@ -1,4 +1,46 @@
 {
+  "ch02": {
+    "dark-mode": {
+      "build": "",
+      "content": "/zips/ch02/dark-mode.zip"
+    },
+    "dark-mode-dedicated": {
+      "build": "",
+      "content": "/zips/ch02/dark-mode-dedicated.zip"
+    },
+    "dark-mode-selector": {
+      "build": "",
+      "content": "/zips/ch02/dark-mode-selector.zip"
+    },
+    "dark-mode-typed": {
+      "build": "",
+      "content": "/zips/ch02/dark-mode-typed.zip"
+    },
+    "radio-complex": {
+      "build": "",
+      "content": "/zips/ch02/radio-complex.zip"
+    },
+    "radio-composite": {
+      "build": "",
+      "content": "/zips/ch02/radio-composite.zip"
+    },
+    "radio-simple": {
+      "build": "",
+      "content": "/zips/ch02/radio-simple.zip"
+    },
+    "radio-summary": {
+      "build": "",
+      "content": "/zips/ch02/radio-summary.zip"
+    },
+    "task-summary": {
+      "build": "",
+      "content": "/zips/ch02/task-summary.zip"
+    },
+    "user-summary": {
+      "build": "",
+      "content": "/zips/ch02/user-summary.zip"
+    }
+  },
   "ch04": {
     "dark-mode": {
       "build": "/builds/ch04/dark-mode/",
