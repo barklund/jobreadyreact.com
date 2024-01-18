@@ -41,6 +41,40 @@
       "content": "/zips/ch02/user-summary.zip"
     }
   },
+  "ch03": {
+    "employees": {
+      "build": "",
+      "content": ""
+    },
+    "rerender": {
+      "build": "",
+      "content": ""
+    },
+    "strict-mode": {
+      "build": "",
+      "content": ""
+    },
+    "todo-delete": {
+      "build": "",
+      "content": ""
+    },
+    "todo-fixed": {
+      "build": "",
+      "content": ""
+    },
+    "todo-memo": {
+      "build": "",
+      "content": ""
+    },
+    "todo-simple": {
+      "build": "",
+      "content": ""
+    },
+    "todo-usememo": {
+      "build": "",
+      "content": ""
+    }
+  },
   "ch04": {
     "dark-mode": {
       "build": "/builds/ch04/dark-mode/",
