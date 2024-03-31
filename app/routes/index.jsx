@@ -27,11 +27,11 @@ export default function Index() {
               Job
             </h1>
             <p className="my-8">
-              <em>Job-Ready React</em> is the book that will take you
-              from amateur to professional React developer. Learn all
-              the tricks and tools used in the real world, and get an
-              edge to land that professional position. Pre-order your
-              copy today!
+              <em>React in Depth</em> is the book that will take you
+              from junior to master React developer. Learn all the
+              tricks and tools used in the real world, and get an edge
+              to land that next-level position. Pre-order your copy
+              today!
             </p>
             <p className="mt-12">
               <CTAButton as="a" href="//barklund.dev/jrr">
@@ -51,7 +51,7 @@ export default function Index() {
               <span className="absolute left-4 top-[-8px] md:top-12 font-display text-orange-300 text-[70px] md:text-[130px]">
                 “
               </span>
-              Job-Ready React is a one-source place where you can learn
+              React in Depth is a one-source place where you can learn
               React, the tooling, ecosystem, libraries, frameworks, and
               best ways to create React apps that will be performant and
               professional.
@@ -88,12 +88,12 @@ export default function Index() {
               </p>
               <p className="mb-4">
                 Here's the trustworthy source you're looking for!{" "}
-                <em>Job-Ready React</em> covers all the tips and tricks
+                <em>React in Depth</em> covers all the tips and tricks
                 used in real-world development, giving you a jump-start
                 in becoming a professional React developer.
               </p>
               <p className="">
-                With <em>Job-Ready React</em> in hand, you'll quickly
+                With <em>React in Depth</em> in hand, you'll quickly
                 learn what you need to upgrade your React skills!
               </p>
             </div>
@@ -162,7 +162,7 @@ export default function Index() {
               50+ examples to grow your skills
             </h4>
             <p className="text-sm md:text-base">
-              <em>Job-Ready React</em> includes 50+ advanced examples
+              <em>React in Depth</em> includes 60+ advanced examples
               using the latest professional tools and libraries. Stop
               wasting time trying to figure out what works, and instead,
               get ahead of the game by starting with full applications
@@ -337,7 +337,7 @@ export default function Index() {
                 for reference. Get started with React Quickly!
               </h3>
               <CTAButton
-                href="//jobreadyreact.com"
+                href="//reactquickly.dev"
                 rounded
                 className="uppercase"
               >
@@ -414,7 +414,7 @@ export default function Index() {
                 </li>
                 <li className="mt-2">
                   <a
-                    href="https://livebook.manning.com/book/job-ready-react"
+                    href="https://livebook.manning.com/book/react-in-depth"
                     className="hover:underline"
                   >
                     Book forum
@@ -422,7 +422,7 @@ export default function Index() {
                 </li>
                 <li className="mt-2">
                   <a
-                    href="https://github.com/job-ready-react/jrr"
+                    href="https://github.com/React-in-Depth/react-in-depth"
                     className="hover:underline"
                   >
                     Source code

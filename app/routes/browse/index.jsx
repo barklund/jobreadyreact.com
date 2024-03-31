@@ -6,7 +6,7 @@ function BrowseIndex() {
     <>
       <section className="h-screen flex flex-col p-4">
         <h1 className="text-4xl mb-4">
-          Browse all repositories for Job-Ready React
+          Browse all repositories for React in Depth
         </h1>
         <ol className="flex flex-wrap gap-4">
           {Object.entries(repositories).map(([name, repos], i) => (

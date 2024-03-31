@@ -18,7 +18,7 @@ function Info() {
         </h2>
         <p className="py-2 text-lg">
           This example is from Chapter {repo.chapter} of{" "}
-          <strong>Job-Ready React</strong>.
+          <strong>React in Depth</strong>.
         </p>
         <div className="mt-2 p-4 flex flex-col items-stretch w-max gap-8">
           {repo.build && (

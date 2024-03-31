@@ -44,35 +44,35 @@
   "ch03": {
     "employees": {
       "build": "",
-      "content": ""
+      "content": "/zips/ch03/employees.zip"
     },
     "rerender": {
       "build": "",
-      "content": ""
+      "content": "/zips/ch03/rerender.zip"
     },
     "strict-mode": {
       "build": "",
-      "content": ""
+      "content": "/zips/ch03/strict-mode.zip"
     },
     "todo-delete": {
       "build": "",
-      "content": ""
+      "content": "/zips/ch03/todo-delete.zip"
     },
     "todo-fixed": {
       "build": "",
-      "content": ""
+      "content": "/zips/ch03/todo-fixed.zip"
     },
     "todo-memo": {
       "build": "",
-      "content": ""
+      "content": "/zips/ch03/todo-memo.zip"
     },
     "todo-simple": {
       "build": "",
-      "content": ""
+      "content": "/zips/ch03/todo-simple.zip"
     },
     "todo-usememo": {
       "build": "",
-      "content": ""
+      "content": "/zips/ch03/todo-usememo.zip"
     }
   },
   "ch04": {
