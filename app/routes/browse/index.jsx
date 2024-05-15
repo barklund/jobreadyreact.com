@@ -1,13 +1,26 @@
 import { Link, Outlet } from "@remix-run/react";
+import { Button } from "~/components";
 import repositories from "~/config/repositories.json";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 
 function BrowseIndex() {
   return (
     <>
       <section className="h-screen flex flex-col p-4">
-        <h1 className="text-4xl mb-4">
+        <h1 className="text-4xl mb-4">Download full source</h1>
+        <div className="flex">
+          <Button
+            as={Link}
+            to="/zips/react-in-depth.zip"
+            target="_blank"
+            Icon={FaCloudDownloadAlt}
+          >
+            Download full source code for all examples
+          </Button>
+        </div>
+        <h2 className="text-3xl mb-4 mt-8">
           Browse all repositories for React in Depth
-        </h1>
+        </h2>
         <ol className="flex flex-wrap gap-4">
           {Object.entries(repositories).map(([name, repos], i) => (
             <li
